@@ -1,0 +1,16 @@
+{% extends 'common_code/base.html' %} 
+
+{% load static %}
+{% block title %} Review {% endblock title %} 
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'css/style-3.css' %}">
+ {% endblock css %}
+
+ {% block img %} 
+  <img src="{% static 'images/flower4.JPG' %}" alt="flower"> 
+     {% endblock img %}
+
+ {% block content %}
+ <h1>This is our review page.Please comment us.Your comment is our correction.So,very frankly comment us.</h1>
+ {% endblock content %}d

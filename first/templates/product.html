@@ -1,0 +1,23 @@
+{% extends 'common_code/base.html' %}
+
+{% load static %}
+ 
+
+{% block title %} Product {% endblock title %} 
+
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'css/style-1.css' %}">
+ {% endblock css %}
+
+ {% block img %} 
+  <img src="{% static 'images/flower2.JPG' %}" alt="flower"> 
+     {% endblock img %}
+
+ {% block content %}
+ <h1>This is our product page.This is our product list.If you want to buy our product online 
+    please call us.We delevary product very quickly and safely.
+ </h1>
+ {% endblock content %}
+
+
